@@ -7,11 +7,11 @@ public class Main {
     private static String line = scanner.nextLine();
 
     public static void main(String[] args) {
-        System.out.print(line + " ");
-        System.out.print(printReverseLine(line) + " ");
-        System.out.print(checkMethodTiming(1000) + " ");
-        System.out.print(checkMethodTiming(10000) + " ");
-        System.out.print(checkMethodTiming(100000) + " ");
+        System.out.print(line + ", ");
+        System.out.print(printReverseLine(line) + ", ");
+        System.out.print(checkMethodTiming(1000) + ", ");
+        System.out.print(checkMethodTiming(10000) + ", ");
+        System.out.print(checkMethodTiming(100000));
     }
 
     public static String printReverseLine(String line) {
